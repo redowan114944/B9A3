@@ -8,6 +8,8 @@
     <!-- DaisyUI and TailwindCSS -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- font-awesome -->
+    <script src="https://kit.fontawesome.com/9a780eae57.js" crossorigin="anonymous"></script>
     <!-- manrope font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,8 +22,8 @@
         </style>
 </head>
 
-<body class="font-manrope lg:py-9 lg:px-32 sm:py-4 sm:px-4">
-    <header>
+<body class="font-manrope">
+    <header class="lg:py-9 lg:px-32 sm:py-4 sm:px-4">
         <!-- nav-bar section -->
         <div class="navbar bg-base-100 sm:pb-2 lg:pb-12">
             <div class="navbar-start">
@@ -86,11 +88,42 @@
                     <a href="#slide1" class="btn btn-circle">❯</a>
                 </div>
             </div> 
-        </div>
-        
+        </div>  
     </header>
-    <main></main>
-    <footer></footer>
+    <main class="lg:py-9 lg:px-32 sm:py-4 sm:px-4"></main>
+
+
+    <footer class="footer p-10 bg-neutral text-neutral-content">
+  <nav class="max-w-80">
+    <header class="footer-title text-xl">Get In Touch</header>
+    <p>Connect with us easily through. Questions, feedback, or just a quick hello we're here for you. Use our contact form, drop an email, or give us a call. We value your input and can't wait to hear from you.</p> 
+    <p><i class="fa-regular fa-envelope text-red-500"></i> hockeys@support.com</p>
+    <p><i class="fa-solid fa-phone-volume text-red-500"></i> (+62) 123-321-543</p>
+  </nav> 
+  <nav>
+    <header class="footer-title text-lg">Company</header> 
+    <a class="link link-hover">About us</a>
+    <a class="link link-hover">Leadership</a>
+    <a class="link link-hover">Careers</a>
+    <a class="link link-hover">News & Article</a>
+    <a class="link link-hover">Legal Notice</a>
+  </nav> 
+  <nav>
+    <header class="footer-title text-lg">Support</header> 
+    <a class="link link-hover">Help Center</a>
+    <a class="link link-hover">FAQ</a>
+    <a class="link link-hover">Ticket Support</a>
+    <a class="link link-hover">Contact Us</a>
+  </nav>
+  <nav>
+    <header class="footer-title text-lg">Services</header> 
+    <a class="link link-hover">Academy</a>
+    <a class="link link-hover">Group Lesson</a>
+    <a class="link link-hover">Private Lesson</a>
+    <a class="link link-hover">Hockeys for kids</a>
+    <a class="link link-hover">Hockeys for Adult</a>
+  </nav>
+</footer>
 </body>
 
 </html>
